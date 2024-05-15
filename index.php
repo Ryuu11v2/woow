@@ -45,7 +45,7 @@ $data = mysqli_fetch_assoc($result);
 
       <h1><a href="index.php"><?=$data['name']?></a></h1>
 
-      <h2><span><?=$data['title']?></span> мэргэжлээр Их засаг олон улсын их сургуулийн <?=$data['place']?></h2>
+      <h2><span><?=$data['title']?></span> Мэргэжлээр Их засаг олон улсын их сургуулийн <?=$data['place']?></h2>
 
       <nav id="navbar" class="navbar">
         <ul>
